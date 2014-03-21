@@ -9,16 +9,18 @@
 * Use the keyword `Scenarios` instead of `Examples`
 
 ## Capybara
-* Don't use `all('css')` unless you intend to use assert against several elements
-* Prefer CSS over XPath
+* Avoid using `all(css)`
+  * Prefer using `find(css, text: 'John Doe')` with restrictions
+* Avoid using both CSS **and** XPath
+* Prefer using CSS over XPath
 * Prefer helper methods to reusing CSS IDs/classes
 * Prefer navigation using `#click` methods over `#visit`
-* Use either CSS or XPath; Avoid using both
 * Use `within(scope, &block)` when checking for nested elements
 
 ## Structure
 [Example](structure.md)
 
+* Prefer using the feature name (in `snake_case`) as the file name
 * Use separate files for unrelated helpers
 * Use separate files for unrelated step definitions
 * Use separate files to classify hooks
