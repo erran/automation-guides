@@ -2,6 +2,9 @@
 ## Ruby
 * Avoid metaprogramming (unless using strict prefixes)
 * Prefer style from [the Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide#readme)
+* Use [YARD](http://rubydoc.info/gems/yard/file/docs/GettingStarted.md) for code documentation
+  * Don't use RDoc style comments
+  * Use the [YARD Tag Overview](http://rubydoc.info/gems/yard/file/docs/Tags.md) 
 
 ## Cucumber
 * Prefer tagged hooks over global
@@ -10,7 +13,7 @@
 
 ## Capybara
 * Avoid using `all(css)`
-  * Prefer using `find(css, text: 'John Doe')` with restrictions
+  * Prefer using `find(css, text: 'John Doe')` with restrictions to find by name
 * Avoid using both CSS **and** XPath
 * Prefer using CSS over XPath
 * Prefer helper methods to reusing CSS IDs/classes
