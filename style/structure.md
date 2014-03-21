@@ -1,5 +1,5 @@
 # Structure
-Structure and organizational suggestions.
+Structure and organizational examples.
 
 ## Cucumber Suite
 ```bash
