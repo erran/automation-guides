@@ -1,6 +1,6 @@
 # Style
 ## Ruby
-* Avoid metaprogramming (unless being strict as suggested in the above guide)
+* Avoid metaprogramming (unless using strict prefixes)
 * Prefer style from [the Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide#readme)
 
 ## Cucumber
