@@ -1,10 +1,11 @@
-# Guides
-Guides for Ruby (automation) development and BDD/TDD in style.
+# Automation guides
+This set of guides will help set some ground rules to follow when
+designing automated test frameworks. It is written in the style of
+[thoughtbot's guides][thoughtbot-guides]. Read them if you haven't already!
 
-* [Style](style)
-
-## General Notes
-* Spend time to document any code that isn't immediately obvious
+**These are guidelines not a definitive rulebook.** If you disagree with
+something [create an issue](https://github.com/erran/automation-guides/issues)
+and we can discuss it.
 
 > High level guidelines:
 >
@@ -20,4 +21,6 @@ Guides for Ruby (automation) development and BDD/TDD in style.
 > * "Prefer" indicates a better option and its alternative to watch out for.
 > * "Use" is a positive instruction.
 >
-> from **[thoughtbot/guides](https://github.com/thoughtbot/guides)**
+> -- from **[thoughtbot/guides][thoughtbot-guides]**
+
+[thoughtbot-guides]: https://github.com/thoughtbot/guides "thoughtbot guides"
