@@ -7,7 +7,7 @@ designing automated test frameworks. It is written in the style of
 something [create an issue](https://github.com/erran/automation-guides/issues)
 and we can discuss it.
 
-[Start reading the guides here](framework).
+[Start reading the guides here](framework.md).
 
 > High level guidelines:
 >
