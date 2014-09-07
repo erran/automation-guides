@@ -2,14 +2,12 @@
 This document describes the basic design of what I consider an automation framework (built around BDD/Cucumber).
 
 ## Table of Contents
-1. [Layout](#layout)
-2. [APIs](#apis)
-  1. [API clients](#api-clients)
-3. [Cucumber](#cucumber)
-4. [RSpec](#rspec)
-5. [Capybara](#capybara)
-
-##  Layout
+* [Layout](#layout)
+* [APIs](#apis)
+  * [API clients](#api-clients)
+* [Cucumber](#cucumber)
+* [RSpec](#rspec)
+* [Capybara](#capybara)
 
 ## APIs
 Tests that use the UI are going to be **much slower**. If you can
